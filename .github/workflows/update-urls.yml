@@ -1,10 +1,6 @@
 # Github actions runner will run this script on a schedule
 
 name: Update urls.json
-on:
-  workflow_dispatch:
-  schedule:
-    - cron: '0 * * * *' # Runs every hour
 
 jobs:
   update-urls:
